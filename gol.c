@@ -1,13 +1,3 @@
-/**
- * File: gol.c
- * Names: Taylor Wong 
- * Project 9
- * Description: Program implements a parallel version of Conway’s Game of Life
- * using threads and barriers to go through each spot on the virtual board. It
- * will check the state of the nieghbors surrounding the specified cell and based
- * on the number of live and dead cells, the cell will be updated accordingly.
- */
-
 #define _XOPEN_SOURCE 600
 
 #include <stdlib.h>
